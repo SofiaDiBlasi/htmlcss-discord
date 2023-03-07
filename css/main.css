@@ -40,7 +40,7 @@ a{
 
 .button{
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -145,29 +145,28 @@ color: black;
 .darkback{
     background-color: #23272a;
     width: 100%;
-    padding: 40px;
     display: flex;
-    padding: 20px;
+    padding: 60px 20px 20px 20px;
     justify-content: center;
 }
 
 .salmonpink{
-    background-color: #f08080;
-    width: 14%;
+    width: 10%;
     min-height: 200px;
-    border: 1px dashed;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
 }
 
 .teal{
-    background-color: #20b2aa;
-    width: 35%;
     min-height: 200px;
     display: flex;
+    row-gap: 5px;
+    width: 40%;
 }
 
 .turquoise{
-    background-color: #7fffd4;
-    width:49%;
+    width: 55%;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
@@ -177,12 +176,11 @@ color: black;
 .babypink{
     background-color: #ffb6c1;
     padding: 5px 8px;
-    border: 1px dashed;
 }
 
 .minicolumn{
-    border: 1px white dashed;
     width: 25%;
+    margin-right: 5px;
 }
 
 .imgconteiner{
@@ -194,7 +192,7 @@ color: black;
     height: 450px;
 }
 
-.lilacbutton{
+.lilac{
     background-color: #8ea1e1;
     color: white;
 }
@@ -209,4 +207,58 @@ color: black;
 
 .stelline{
     width: 490px;
+}
+
+.signinbutton{
+    padding: 5px;
+    height: 26px;
+    width: 4.625rem;
+    font-size: 10px;
+    margin: 0;
+}
+
+.discordlogo{
+    height: 25px;
+}
+
+.hrconteiner{
+    width: 50px;
+}
+
+li{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.colore{
+    color: #8ea1e1;
+}
+
+ul{
+    color: white;
+    list-style: none;
+}
+
+.itaflag{
+    height: 20px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.flagconteiner{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+
+.miniarrow{
+
+}
+
+.iconconteiner{
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 120px;
 }
