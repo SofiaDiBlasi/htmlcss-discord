@@ -116,18 +116,24 @@ color: black;
 }
 
 .pinkblock{
-    background-color: #ffc0cb;
     width: 20%;
     min-height: 200px;
-    border: 1px dashed;
+    padding: 35px;
+}
 
+.sectiontitle{
+    font-size: 35px;
+    padding: 0;
+}
+
+.sectionparag{
+    font-size: 12px;
+    margin-top: 15px;
 }
 
 .blueblock{
-    background-color: #1e90ff;
-    width: 30%;
+    width: 50%;
     min-height: 200px;
-    border: 1px dashed;
 
 }
 
