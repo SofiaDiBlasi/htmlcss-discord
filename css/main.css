@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    max-width: 2000;
+    padding-top: 10px;
+}
+
+nav{
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.button{
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    height: 30px;
+    width: 70px;
+}
+
+.lightbutton{
+color: black;
+
+}
+
+.darkbutton{
+    color: white;
+    background-color: #23272a;
+
+}
+
+.contenitoreheader{
+    width: 100%;
+    padding: 40px;
+   display: flex;
+}
+
+.lilacback{
+    color: white;
+    margin: auto;
+    max-width: 30%;
+    min-height: 200px;
+    justify-content: center;
+}
+
+.whiteback{
+    background-color:#ffffff ;
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    justify-content: center;
+}
+
+.greyback{
+    background-color: #d3d3d3;
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    justify-content: center;
+}
+
+.contenitOre{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+}
+
+.pinkblock{
+    background-color: #ffc0cb;
+    width: 20%;
+    min-height: 200px;
+    border: 1px dashed;
+
+}
+
+.blueblock{
+    background-color: #1e90ff;
+    width: 30%;
+    min-height: 200px;
+    border: 1px dashed;
+
+}
+
+.greenblock{
+    background-color: #228b22;
+    width: 50%;
+    min-height: 400px;
+    border: 1px dashed;
+
+}
+
+.darkback{
+    background-color: #23272a;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.salmonpink{
+    background-color: #f08080;
+    width: 14%;
+    min-height: 200px;
+    border: 1px dashed;
+}
+
+.teal{
+    background-color: #20b2aa;
+    width: 35%;
+    min-height: 200px;
+    display: flex;
+}
+
+.turquoise{
+    background-color: #7fffd4;
+    width:49%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.babypink{
+    background-color: #ffb6c1;
+    padding: 5px 8px;
+    border: 1px dashed;
+}
+
+.minicolumn{
+    border: 1px white dashed;
+    width: 25%;
+}
